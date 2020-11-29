@@ -1,0 +1,5 @@
+include LICENSE
+include README.md
+recursive-include juntagrico_depot_management/templates *
+include requirements.txt
+global-exclude *.pyc

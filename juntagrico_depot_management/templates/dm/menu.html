@@ -1,3 +1,4 @@
+{% load juntagrico.common %}
 <li class="nav-item">
-    <a class="nav-link {{ menu.dm }}" href="/dm/depot/change/overview">Depot Änderungen</a>
+    <a class="nav-link {{ request|activemenu:"dm" }}" href="/dm/depot/change/overview">Depot Änderungen</a>
 </li>
